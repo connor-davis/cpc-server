@@ -1,0 +1,61 @@
+{
+  "name": "cpc-server",
+  "version": "0.0.1",
+  "description": "CPC Server",
+  "repository": "https://github.com/connor-davis/cpc-server",
+  "author": "Connor Davis <19422@kloofhigh.co.za>",
+  "license": "GPL-3.0",
+  "private": false,
+  "main": "index.js",
+  "bin": {
+    "cpc-server": "bin.js"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "ansi-regex": "^6.0.0",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "electron-regedit": "^2.0.0",
+    "electron-updater": "^4.3.9",
+    "env-paths": "^2.2.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "socket.io": "^4.1.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "electron": "^13.1.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
